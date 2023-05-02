@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "merge-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/merge-sort.ts",
+    "bubble-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/bubble-sort.ts",
+    "quick-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/quick-sort.ts",
+    "shell-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/shell-sort.ts",
+    "selection-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/selection-sort.ts",
+    "insertion-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/insertion-sort.ts",
+    "heap-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/heap-sort.ts",
+    "count-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/count-sort.ts",
+    "hash-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/hash-sort.ts"
+  }
+}
