@@ -21,6 +21,7 @@
     "dijkstra-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dijkstra-algorithm.ts",
     "bfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/bfs-algorithm.ts",
     "dfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dfs-algorithm.ts",
-    "floyd-warshall-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/floyd-warshall-algorithm.ts"
+    "floyd-warshall-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/floyd-warshall-algorithm.ts",
+    "bellman-ford-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/bellman-ford-algorithm.ts"
   }
 }
