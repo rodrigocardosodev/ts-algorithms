@@ -13,7 +13,7 @@ function bubbleSort(input: string): string {
   return arr.join('');
 }
 
-export const runBubbleSort = (unsortedString: string) => {
+export const runBubbleSort = (unsortedString: string): string => {
   const sortedString = bubbleSort(unsortedString);
-  console.log(sortedString);
+  return sortedString;
 }

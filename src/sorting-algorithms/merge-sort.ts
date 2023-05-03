@@ -29,7 +29,7 @@ function merge(left: string, right: string): string {
       .concat(right.slice(rightIndex).split(''))
       .join('');
 }
-export const runMergeSort = (unsortedString: string) => {
+export const runMergeSort = (unsortedString: string): string => {
   const sortedString = mergeSort(unsortedString)
-  console.log(sortedString);
+  return sortedString
 }

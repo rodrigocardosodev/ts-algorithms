@@ -24,7 +24,7 @@ function hashSort(input: string): string {
 }
 
 // Testando o algoritmo
-export const runHashSort = (unsortedString: string) => {
+export const runHashSort = (unsortedString: string): string => {
   const sortedString = hashSort(unsortedString);
-  console.log(sortedString);
+  return sortedString;
 }

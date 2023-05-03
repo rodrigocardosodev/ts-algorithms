@@ -17,7 +17,7 @@ function radixSort(input: string): string {
 }
 
 // Testando o algoritmo
-export const runRadixSort = (unsortedString: string) => {
+export const runRadixSort = (unsortedString: string): string => {
   const sortedString = radixSort(unsortedString);
-  console.log(sortedString);
+  return sortedString;
 }

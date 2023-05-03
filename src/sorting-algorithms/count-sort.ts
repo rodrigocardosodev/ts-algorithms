@@ -22,7 +22,7 @@ function countingSort(input: string): string {
 }
 
 // Testando o algoritmo
-export const runCountingSort = (unsortedString: string) => {
+export const runCountingSort = (unsortedString: string): string => {
   const sortedString = countingSort(unsortedString);
-  console.log(sortedString);
+  return sortedString;
 }
