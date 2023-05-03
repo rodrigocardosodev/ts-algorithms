@@ -23,4 +23,4 @@ function dfs(graph: Graph, start: number, end: number, visited: boolean[], path:
 let visited = new Array(graph.length).fill(false);
 let path: number[] = [];
 
-console.log(dfs(graph, 0, 4, visited, path));  // Output: [ 0, 2, 4 ]
+console.log(dfs(graph, 0, 4, visited, path));

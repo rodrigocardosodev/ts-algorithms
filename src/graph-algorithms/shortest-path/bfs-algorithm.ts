@@ -29,4 +29,4 @@ function bfs(graph: Graph, start: number, end: number): number[] {
 }
 
 
-console.log(bfs(graph, 0, 4));  // Output: [ 0, 2, 4 ]
+console.log(bfs(graph, 0, 4));
