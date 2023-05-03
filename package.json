@@ -17,6 +17,10 @@
     "insertion-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/insertion-sort.ts",
     "heap-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/heap-sort.ts",
     "count-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/count-sort.ts",
-    "hash-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/hash-sort.ts"
+    "hash-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/hash-sort.ts",
+    "dijkstra-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dijkstra-algorithm.ts",
+    "bfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/bfs-algorithm.ts",
+    "dfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dfs-algorithm.ts",
+    "floyd-warshall-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/floyd-warshall-algorithm.ts"
   }
 }
