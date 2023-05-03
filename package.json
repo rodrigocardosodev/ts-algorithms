@@ -18,6 +18,7 @@
     "heap-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/heap-sort.ts",
     "count-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/count-sort.ts",
     "hash-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/hash-sort.ts",
+    "radix-sort": "ts-node-dev --ignore-watch node_modules src/sorting-algorithms/radix-sort.ts",
     "dijkstra-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dijkstra-algorithm.ts",
     "bfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/bfs-algorithm.ts",
     "dfs-algorithm": "ts-node-dev --ignore-watch node_modules src/graph-algorithms/shortest-path/dfs-algorithm.ts",
