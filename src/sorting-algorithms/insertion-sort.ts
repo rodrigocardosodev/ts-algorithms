@@ -18,9 +18,7 @@ function insertionSort(input: string): string {
 }
 
 // Testando o algoritmo
-const runInsertionSort = (unsortedString: string) => {
+export const runInsertionSort = (unsortedString: string) => {
   const sortedString = insertionSort(unsortedString);
   console.log(sortedString);
 }
-
-runInsertionSort("dcbaehgf");

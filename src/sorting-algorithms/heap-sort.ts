@@ -45,9 +45,7 @@ function heapify(arr: string[], n: number, i: number) {
 }
 
 // Testando o algoritmo
-const runHeapSort = (unsortedString: string) => {
+export const runHeapSort = (unsortedString: string) => {
   const sortedString = heapSort(unsortedString);
   console.log(sortedString);
 }
-
-runHeapSort("dcbaehgf");

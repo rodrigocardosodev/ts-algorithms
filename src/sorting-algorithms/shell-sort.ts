@@ -19,9 +19,7 @@ function shellSort(input: string): string {
 }
 
 // Testando o algoritmo
-const runShellSort = (unsortedString: string) => {
+export const runShellSort = (unsortedString: string) => {
   const sortedString = shellSort(unsortedString);
   console.log(sortedString);
 }
-
-runShellSort("dcbaehgf");

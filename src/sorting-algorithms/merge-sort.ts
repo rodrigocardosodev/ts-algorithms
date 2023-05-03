@@ -29,9 +29,7 @@ function merge(left: string, right: string): string {
       .concat(right.slice(rightIndex).split(''))
       .join('');
 }
-const runMergeSort = (unsortedString: string) => {
+export const runMergeSort = (unsortedString: string) => {
   const sortedString = mergeSort(unsortedString)
   console.log(sortedString);
 }
-
-runMergeSort("dcbaehgf");

@@ -21,9 +21,7 @@ function selectionSort(input: string): string {
 }
 
 // Testando o algoritmo
-const runSelectionSort = (unsortedString: string) => {
+export const runSelectionSort = (unsortedString: string) => {
   const sortedString = selectionSort(unsortedString);
   console.log(sortedString);
 }
-
-runShellSort("dcbaehgf");

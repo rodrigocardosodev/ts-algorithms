@@ -34,9 +34,7 @@ function partition(arr: string[], low: number, high: number): number {
   return (i + 1);
 }
 
-const runQuickSort = (unsortedString: string) => {
+export const runQuickSort = (unsortedString: string) => {
   const sortedString = quickSort(unsortedString);
   console.log(sortedString);
 }
-
-runQuickSort("dcbaehgf");
